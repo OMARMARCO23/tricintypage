@@ -2,7 +2,6 @@ import React from 'https://aistudiocdn.com/react@^19.1.1';
 import { useAppContext } from '../contexts/AppContext.js';
 import Card from '../components/Card.js';
 import { COUNTRIES, TARIFF_DATA } from '../constants.js';
-import AdSenseAd from '../components/AdSenseAd.js';
 
 const ChevronDownIcon = () => /*#__PURE__*/React.createElement("svg", {
   xmlns: "http://www.w3.org/2000/svg",
@@ -194,9 +193,7 @@ const Settings = () => {
   }, "×")))), showManualTariffs && /*#__PURE__*/React.createElement("button", {
     onClick: addTier,
     className: "mt-4 w-full text-center py-2 px-4 border-2 border-dashed border-primary-500 text-primary-500 rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/50 transition-colors"
-  }, t('add_tier'))), /*#__PURE__*/React.createElement(AdSenseAd, {
-    slot: "1234567890"
-  }), /*#__PURE__*/React.createElement(Card, null, /*#__PURE__*/React.createElement("h2", {
+  }, t('add_tier'))), /*#__PURE__*/React.createElement(Card, null, /*#__PURE__*/React.createElement("h2", {
     className: "text-lg font-semibold mb-2"
   }, t('about')), /*#__PURE__*/React.createElement("p", {
     className: "text-sm text-gray-600 dark:text-gray-400"
