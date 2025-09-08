@@ -2,7 +2,6 @@ import React, { useState, useCallback } from 'https://aistudiocdn.com/react@^19.
 import { useAppContext } from '../contexts/AppContext.js';
 import Card from '../components/Card.js';
 import { ADVICE_KEYS } from '../constants.js';
-import AdSenseAd from '../components/AdSenseAd.js';
 
 const Advice = () => {
   const { t } = useAppContext();
@@ -56,9 +55,7 @@ const Advice = () => {
     className: "w-full px-6 py-3 bg-primary-500 text-white rounded-lg shadow hover:bg-primary-600 transition-colors flex items-center justify-center"
   }, React.createElement(LightbulbIcon, {
     className: "h-6 w-6 mr-2"
-  }), currentAdviceKey ? t('get_new_advice') : t('get_advice'))), React.createElement(AdSenseAd, {
-    slot: "1234567890"
-  }));
+  }), currentAdviceKey ? t('get_new_advice') : t('get_advice'))));
 };
 
 export default Advice;
