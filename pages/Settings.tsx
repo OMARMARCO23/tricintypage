@@ -3,7 +3,6 @@ import { useAppContext } from '../contexts/AppContext.tsx';
 import { Language, Tariff } from '../types.ts';
 import Card from '../components/Card.tsx';
 import { COUNTRIES, TARIFF_DATA, Provider } from '../constants.ts';
-import AdSenseAd from '../components/AdSenseAd.tsx';
 
 const ChevronDownIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -189,9 +188,6 @@ const Settings: React.FC = () => {
             </button>
         )}
       </Card>
-      
-      {/* AdSense Ad */}
-      <AdSenseAd slot="5199804750" />
       
       {/* About */}
       <Card>
