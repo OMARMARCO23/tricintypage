@@ -1,0 +1,5 @@
+{
+  "name": "TRICINTY",
+  "description": "A Progressive Web App to track electricity consumption, predict bills, and get energy-saving advice, tailored for the Moroccan market.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRICINTY - Smart Energy Tracker</title>
+    <link rel="manifest" href="./manifest.json">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./icon-192x192.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+            animation: {
+              fadeIn: 'fadeIn 0.5s ease-in-out',
+            },
+            colors: {
+              primary: {
+                DEFAULT: 'hsl(210, 40%, 50%)',
+                '50': 'hsl(210, 40%, 95%)',
+                '100': 'hsl(210, 40%, 90%)',
+                '200': 'hsl(210, 40%, 80%)',
+                '300': 'hsl(210, 40%, 70%)',
+                '400': 'hsl(210, 40%, 60%)',
+                '500': 'hsl(210, 40%, 50%)',
+                '600': 'hsl(210, 40%, 40%)',
+                '700': 'hsl(210, 40%, 30%)',
+                '800': 'hsl(210, 40%, 20%)',
+                '900': 'hsl(210, 40%, 10%)',
+                '950': 'hsl(210, 40%, 5%)'
+              }
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+<style>
+  ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div id="root"></div>
+    <script type="module" src="./index.js?v=12"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
