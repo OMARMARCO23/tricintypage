@@ -250,7 +250,7 @@ const History: React.FC = () => {
         </div>
       </Modal>
 
-      <AdSenseAd slot="1234567890" />
+      <AdSenseAd slot="2640416036191095" />
     </div>
   );
 };
