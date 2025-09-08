@@ -191,7 +191,7 @@ const Settings: React.FC = () => {
       </Card>
       
       {/* AdSense Ad */}
-      <AdSenseAd slot="1234567890" />
+      <AdSenseAd slot="2640416036191095" />
       
       {/* About */}
       <Card>
