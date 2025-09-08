@@ -21,7 +21,7 @@ const AdSenseAd: React.FC<AdSenseAdProps> = ({ slot, className = '' }) => {
       <ins
         className={insClasses}
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-1234567890123456" // This is a placeholder, replace with your real publisher ID
+        data-ad-client="ca-pub-2640416036191095" // This is a placeholder, replace with your real publisher ID
         data-ad-slot={slot}
         data-ad-format="auto"
         data-full-width-responsive="true"
