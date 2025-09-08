@@ -2,7 +2,6 @@ import React, { useState, useCallback } from 'https://aistudiocdn.com/react@^19.
 import { useAppContext } from '../contexts/AppContext.tsx';
 import Card from '../components/Card.tsx';
 import { ADVICE_KEYS } from '../constants.ts';
-import AdSenseAd from '../components/AdSenseAd.tsx';
 
 const Advice: React.FC = () => {
   const { t } = useAppContext();
@@ -55,7 +54,6 @@ const Advice: React.FC = () => {
         </button>
       </div>
 
-      <AdSenseAd slot="5199804750" />
     </div>
   );
 };
