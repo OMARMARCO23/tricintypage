@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.omarmarco23.twa",
+    "sha256_cert_fingerprints": ["7D:EC:05:5D:D0:41:4A:84:74:4A:8C:F2:D2:98:6C:26:C7:A0:FA:84:F2:3E:8A:6E:00:71:BF:23:7B:03:87:A1"]
+  }
+}]
