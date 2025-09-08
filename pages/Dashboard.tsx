@@ -241,7 +241,7 @@ const Dashboard: React.FC = () => {
       )}
 
       {/* AdSense Ad */}
-      <AdSenseAd slot="1234567890" />
+      <AdSenseAd slot="2640416036191095" />
 
       {/* Action Buttons */}
       <div className="grid grid-cols-1 gap-4">
